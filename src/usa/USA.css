@@ -9,7 +9,6 @@
     }
 }
 
-/* RESPONSIVE */
 @layer utilities {
     @media(min-width: 300px) {
         :root {
@@ -47,7 +46,6 @@
     position: relative;
 }
 
-/* MONEY & DATE*/
 .usa-root .money-displayed{
     position: absolute;
     top: calc(var(--pixel-size) * 341);
@@ -74,7 +72,6 @@
     color: #b1fc04;
 }
 
-/* BUTTON */
 .usa-root .map-button{
     position: absolute;
     bottom: calc(var(--pixel-size) * 40);
@@ -159,7 +156,6 @@
     font-size: calc(var(--pixel-size) * 10);
 }
 
-/* BAR */
 .usa-root #bath {
     position: absolute;
     top: calc(var(--pixel-size) * 321);
@@ -244,7 +240,6 @@
     font-weight: bold;
 }
 
-/* MAKAN */
 .usa-root .usa-makan-options {
     top: calc(var(--pixel-size) * 80); 
     left: calc(var(--pixel-size) * 265);
@@ -272,7 +267,6 @@
     background-color:rgb(212, 173, 64);
 }
 
-/* QUEST */
 .usa-root #quest-display {
     top: calc(var(--pixel-size) * 120); 
     left: calc(var(--pixel-size) * -110);
@@ -285,12 +279,10 @@
     border-radius: 10px;
 }
 
-/* Pixel art */
 .usa-root .pixel-art {
     image-rendering: pixelated;
 }
 
-/* Game over image */
 .usa-root .game-over-image {
     position: absolute;
     width: calc(25 * var(--grid-cell));
@@ -303,7 +295,7 @@
     opacity: 1;
 }
 
-/* Black screen */
+
 .usa-root .black-screen {
     position: fixed;
     top: 0;
@@ -321,7 +313,7 @@
     pointer-events: auto;
 }
 
-/* Info quest & icon */
+
 .usa-root .info-quest {
     font-size: 14px;
     color: #888;
@@ -363,7 +355,6 @@
     white-space: nowrap;
 }
 
-/* Camera, character, shadow, etc */
 .usa-root .camera {
     width: calc(var(--pixel-size)*160);
     height: calc(var(--pixel-size)*144);
@@ -420,7 +411,6 @@
     }
 }
 
-/* Dpad & headline */
 .dpad {
     position: absolute;
     margin-bottom: 120px;
@@ -463,7 +453,6 @@
 }
 
 
-//=======================GAME OVER=========================//
 .gameover-modal {
     position: fixed;
     inset: 0;

@@ -9,7 +9,7 @@
     }
 }
 
-/* RESPONSIVE */
+
 @layer utilities {
     @media(min-width: 300px) {
         :root {
@@ -73,7 +73,7 @@
     color: #b1fc04;
 }
 
-/* BUTTON */
+
 .france-root .map-button{
     position: absolute;
     bottom: calc(var(--pixel-size) * 10);
@@ -144,7 +144,6 @@
     font-size: calc(var(--pixel-size) * 10);
 }
 
-/* BAR */
 .france-root #bath {
     position: absolute;
     top: calc(var(--pixel-size) * 275);
@@ -229,7 +228,7 @@
     font-weight: bold;
 }
 
-/* Makan */
+
 .france-root .france-makan-options {
     top: calc(var(--pixel-size) * 70); 
     left: calc(var(--pixel-size) * 180);
@@ -257,7 +256,6 @@
     background-color:rgb(212, 173, 64);
 }
 
-/* QUEST */
 .france-root #quest-display {
     top: calc(var(--pixel-size) * 120); 
     left: calc(var(--pixel-size) * -110);
@@ -270,12 +268,10 @@
     border-radius: 10px;
 }
 
-/* Pixel art */
 .france-root .pixel-art {
     image-rendering: pixelated;
 }
 
-/* Game over image */
 .france-root .game-over-image {
     position: absolute;
     width: calc(25 * var(--grid-cell));
@@ -288,7 +284,6 @@
     opacity: 1;
 }
 
-/* Black screen */
 .france-root .black-screen {
     position: fixed;
     top: 0;
@@ -306,7 +301,6 @@
     pointer-events: auto;
 }
 
-/* Info quest & icon */
 .france-root .info-quest {
     font-size: 14px;
     color: #888;
@@ -348,7 +342,6 @@
     white-space: nowrap;
 }
 
-/* Camera, character, shadow, etc */
 .france-root .camera {
     width: calc(var(--pixel-size)*160);
     height: calc(var(--pixel-size)*144);
@@ -405,7 +398,6 @@
     }
 }
 
-/* Dpad & headline */
 .france-root .dpad {
     position: absolute;
     margin-bottom: 120px;
@@ -448,7 +440,7 @@
 }
 
 
-//=======================GAME OVER=========================//
+
 .gameover-modal {
     position: fixed;
     inset: 0;
