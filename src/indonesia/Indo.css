@@ -372,7 +372,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: url("../../public/asset/character/shadow.webp") no-repeat no-repeat;
+    background: url("../asset/character/shadow.webp") no-repeat no-repeat;
     background-size: 100%;
 }
 .indo-root .character-name {
